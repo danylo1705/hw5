@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+header {
+    min-height: 40px;
+    background-color: black;
+    padding: 10px;
+    
+}
+ul{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    color: black;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 160, 201);
+}
+.name{
+    display: block;
+    margin-right: auto;
+    height: 40px;
+    width: 90px;
+    background-color: rgba(252, 255, 65, 0.822);
+    color: black;
+}
+li{
+    padding: 10px;
+}
+.main{
+    background-size: cover;
+    background-image:url(https://izaktv.pl/wp-content/uploads/2018/02/38ba642bfb9195f960e50c60e5cd3ad1.png) ;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+}
+.main img{
+    border-radius: 50%;
+    border: solid black 2px;
+    height: 100px;
+    width: 100px;
+}
+h1{
+    background-color:  rgba(255, 255, 255, 0.589);
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main p{
+    background-color: rgba(255, 255, 255, 0.589);
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.about{
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    max-width: 500px;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 3px solid rgb(216, 30, 191);
+    border-radius: 5px;
+}
+.about h2{
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    padding-bottom: 5px;
+}
+.img1 img{
+    display: flex;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+.career  {
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    max-width: 500px;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 3px solid rgb(216, 30, 191);
+    border-radius: 5px;
+}
+ .img2 img {
+    display: flex;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.career h2{
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    padding-bottom: 5px;
+}
+.achievements{
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    max-width: 500px;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 3px solid rgb(216, 30, 191);
+    border-radius: 5px;
+}
+.achievements h2{
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    padding-bottom: 5px;
+}
+
+.gallery h2{
+    display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.gallery img {
+    display: flex;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+}
